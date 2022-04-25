@@ -1,10 +1,10 @@
-@import url(normalize.css);
+@import url(reset.css);
 
 h1, h2 {
 	font-family: Helvetica, sans-serif;
 	font-size: 75px;
 	font-weight: 700;
-	margin: 0;
+	margin: none;
 }
 
 a {
@@ -19,6 +19,11 @@ p {
 	font-family: Helvetica, sans-serif;
 	font-size: 50px;
 	font-weight: 300;
+	margin-top: 50px;
+}
+
+.p-text{
+	line-height: 1.13;
 }
 
 .header {
@@ -47,8 +52,7 @@ p {
 }
 
 .main {
-	padding-left: 80px;
-	padding-right: 80px;
+	padding: 110px 80px 100px;
 }
 
 .footer {
@@ -70,4 +74,5 @@ p {
 	font-family: Helvetica, sans-serif;
 	font-size: 50px;
 	font-weight: 700;
+	margin: 0;
 }
