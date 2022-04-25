@@ -4,6 +4,7 @@ h1, h2 {
 	font-family: Helvetica, sans-serif;
 	font-size: 75px;
 	font-weight: 700;
+	/*margin: 0;*/
 }
 
 a {

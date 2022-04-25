@@ -1,0 +1,65 @@
+@import url(reset.css);
+
+.header, .footer{
+	height: 60px;
+	background-color: #FE1A19;
+	color: #FFFFFF;
+	font-family: Helvetica, sans-serif;
+	font-weight: 700;
+	line-height: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+main{
+	text-align: center;
+}
+
+.column.one, .column.two, .column.three{
+	width: 400px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	display: inline-block;
+	padding: 33px 33px 0px;
+	font-family: Times New Roman, serif;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: left;
+	margin: 52px 25px;
+}
+
+h2{
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 41px;
+}
+
+ul{
+	padding-bottom: 33px;
+	line-height: 23px;
+}
+
+.footer{
+	text-align: center;
+	font-size: 0;
+	text-decoration: none;
+	color: white;
+}
+
+.footer-container-1, .footer-container-2{
+	display: inline-block;
+	text-align: left;
+	font-size: 20px;
+	width: 50%;
+}
+
+.footer-container-2{
+	text-align: right;
+}
+
+.back{
+	text-decoration: none;
+	color: white;
+}

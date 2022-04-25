@@ -1,0 +1,9 @@
+@import url(reset.css);
+
+.test{
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	background-color: green;
+	display: inline-block;
+}
