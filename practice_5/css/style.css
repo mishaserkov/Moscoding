@@ -15,7 +15,7 @@ main{
 	text-align: center;
 }
 
-.column.one, .column.two, .column.three{
+.column {
 	width: 400px;
 	border: 5px solid #E5E000;
 	box-sizing: border-box;
